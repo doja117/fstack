@@ -11,7 +11,7 @@ function handleRequest(req:Request,resp:Response):Response{
 }
 
 function whenToStart(req:Request,resp:Response):Response{
-    resp.send("week2:1,1:32:32")
+    resp.send("week2:2,0:13:54")
 }
 function handleTime(req:Request,resp:Response):Response{
     var s:string=SendTime();
